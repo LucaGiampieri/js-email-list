@@ -40,8 +40,15 @@
     border-radius: 8px;
     box-shadow: 0 0 10px #6a11cb;
     transition: 0.3s;
+    cursor: pointer;
 }
 
 #button:hover {
     box-shadow: 0 0 30px #6a11cb, 0 0 20px blue;
+    transform: translateY(-2px);
+    transition: 0.3s;
+}
+
+#button:active {
+    transform: translateY(2px);
 }
